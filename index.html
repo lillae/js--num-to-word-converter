@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Number to Word</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Number to Word Converter</h2>
+        <form id="form">
+            <div class="input-wrapper">
+                <input type="number" placeholder="Number" id="num" autocomplete="off">
+                <button type="submit" id="btn">Convert</button>
+            </div>
+            <div id="textarea" cols="30" placeholder="Word goes here">
+                <h3 id="word" class="hide"></h3>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
