@@ -1,1 +1,1 @@
-# js--num-to-word-converter
+# Num to Word Converter
